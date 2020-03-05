@@ -1,4 +1,4 @@
-body {aaa
+body {
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
   background: #555555;
@@ -33,6 +33,11 @@ background-color: #FFFFFF;
 /*About Me Section*/
 .container {
   padding: 0 16px;
+  text-align:center;
+}
+
+.lukepic {
+	width: 50%;
 }
 
 .title {
@@ -52,7 +57,6 @@ background-color: #FFFFFF;
 .contact {
   background-color: #FFFFFF;
   color: #000000;
-  border: 2px #000000;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -67,7 +71,6 @@ background-color: #FFFFFF;
  /*Media queries*/
  @media only screen and (max-width: 500px) {
  	body {
- 	  padding: none;
  	  width: 100%;
    }
    

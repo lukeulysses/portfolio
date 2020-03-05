@@ -1,6 +1,10 @@
 body {aaa
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
+  background: #555555;
+  color: #000000;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .topnav {
@@ -20,55 +24,20 @@ body {aaa
 
 .topnav a:hover {
   background-color: #dddddd;
-  color: #000000;
 }
 
-body {
-  background: #555555;
+.backgroundcolour {
+background-color: #FFFFFF;
 }
 
 /*About Me Section*/
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000000;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.about-section {
-  padding: 50px;
-  text-align: center;
-}
-
 .container {
   padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .title {
   color: #000000;
   font-style: italic;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: #FFFFFF;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
 }
 
 .maydenlogo {
@@ -80,7 +49,7 @@ body {
 }
 
 /*Contact section links*/
-.contact:link, .contact:visited {
+.contact {
   background-color: #FFFFFF;
   color: #000000;
   border: 2px #000000;
